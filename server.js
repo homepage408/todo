@@ -12,6 +12,7 @@ app.get('/', (req, res) => {
     res.json({ message: "Hello World" });
 })
 
+// Coba
 app.use('/api', IndexRouter);
 app.use(router);
 
