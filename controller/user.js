@@ -22,7 +22,9 @@ class UsersController {
         } catch (e) {
             return res.json({ error: e.message });
         }
-    console.log("HAI");}
+        console.log("HAI")
+        console.log("HAIII")
+    }
 }
 
 module.exports = UsersController
